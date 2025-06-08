@@ -1,4 +1,4 @@
-# SIGN_LANGUAGE PROJECT
+# SIGN PROJECT
 ##  실시간 수어 해석 프로그램
 
 본 프로젝트는 **단일 손 수어**를 실시간으로 인식하고 그 결과를 **말풍선 형태로 시각화**하는 Python 기반 컴퓨터 비전 애플리케이션입니다. 사용자는 GUI를 통해 새로운 수어 데이터를 수집하고 모델을 재학습할 수 있으며, 실시간으로 수어를 예측하여 영상에 오버레이하는 기능을 제공합니다.
@@ -49,7 +49,21 @@ pip install -r requirements.txt
 python gui_launcher.py
 ```
 
-GUI를 통해 새로운 수어 모션을 추가하고, 자동으로 데이터 수집 및 모델 재학습이 수행할 수 있음음
+새로운 수어 모션을 추가하고, 자동으로 데이터 수집 및 모델 재학습이 수행할 수 있음.
+##### 수어 추가하기
+![demo4](https://github.com/user-attachments/assets/abc55473-45f0-4972-afa8-79ebb2b0fac9)
+![demo3](https://github.com/user-attachments/assets/605a9e16-5edd-4664-b4c3-afdcecfc9e90)
+
+입력해둔 수어 모션 데이터를 바탕으로, 실시간 수어 해석 프로그램을 실시할 수 있음.
+![demo2](https://github.com/user-attachments/assets/ddd3bbf5-ea0c-46cf-bd7c-a589d6e3e94e)
+캠 실행에 약간의 대기가 필요하여 안내 문구를 넣음. 
+![demo1](https://github.com/user-attachments/assets/4c78dd35-bbd9-4f7a-a220-59592a04412d)
+
+#### 결과) 실시간 수어 해석 데모 영상 
+
+
+https://github.com/user-attachments/assets/9c755fa5-735a-412a-b66f-5f5411262418
+
 
 ---
 
